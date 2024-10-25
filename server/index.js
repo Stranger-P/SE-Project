@@ -27,7 +27,7 @@ mongoose
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
-  .then(() => {
+  .then(() => {    
     addDummyAdmin();
     app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
   })
